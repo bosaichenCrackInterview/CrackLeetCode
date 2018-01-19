@@ -15,6 +15,7 @@ class Solution {
 }
 
 // Efficient
+// The code will not work if it is simply 8 * n. Alternatively, an explicit casting can be done 8 * (long) n.
 public class Solution {
     public int arrangeCoins(int n) {
         return (int) ((Math.sqrt(1 + 8.0 * n) - 1) / 2);
